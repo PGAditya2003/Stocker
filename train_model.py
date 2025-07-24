@@ -56,5 +56,6 @@ plt.show()
 input("Press Enter to exit...")
 
 # Save the model
-model.save("models/stock_lstm.h5")
+# In train_model.py
+model.save("models/stock_lstm")  # No .h5, this creates a folder
 print("Model saved to models/stock_lstm.h5")

@@ -15,7 +15,7 @@ start_date = st.sidebar.date_input("Start Date", pd.to_datetime("2015-01-01"))
 end_date = st.sidebar.date_input("End Date", pd.to_datetime("today"))
 
 # Load model
-model = load_model("models/stock_lstm.h5")
+model = load_model("models/stock_lstm")
 
 # Main section
 if st.sidebar.button("Predict"):

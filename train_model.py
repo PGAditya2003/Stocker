@@ -57,6 +57,7 @@ input("Press Enter to exit...")
 
 # Save the model
 # In train_model.py
-model.save("models/stock_lstm.keras")
+model.save("models/stock_lstm.h5")
+
 
 print("Model saved to models/stock_lstm")

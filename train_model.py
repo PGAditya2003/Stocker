@@ -57,6 +57,6 @@ input("Press Enter to exit...")
 
 # Save the model
 # In train_model.py
-model.export("models/stock_lstm")  # Exports as TensorFlow SavedModel format
+model.save("models/stock_lstm.keras")
 
-print("Model saved to models/stock_lstm.h5")
+print("Model saved to models/stock_lstm")

@@ -15,7 +15,7 @@ start_date = st.sidebar.date_input("Start Date", pd.to_datetime("2015-01-01"))
 end_date = st.sidebar.date_input("End Date", pd.to_datetime("today"))
 
 # Load model
-model = load_model("models/stock_lstm")  # Loads SavedModel
+model = load_model("models/stock_lstm.keras")
 
 # Main section
 if st.sidebar.button("Predict"):

@@ -57,5 +57,6 @@ input("Press Enter to exit...")
 
 # Save the model
 # In train_model.py
-model.save("models/stock_lstm")  # No .h5, this creates a folder
+model.export("models/stock_lstm")  # Exports as TensorFlow SavedModel format
+
 print("Model saved to models/stock_lstm.h5")
